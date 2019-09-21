@@ -6,7 +6,7 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
-image=cv2.imread("./nallam.jpg")
+image=cv2.imread("./train_5.png")
 
 agender = PyAgender()
 faces = agender.detect_genders_ages(image)
